@@ -1,5 +1,5 @@
 # COAtoPID
-CLI tool for converting Microsoft COA codes to Product IDs. Completely cross-platform.
+CLI tool for converting Microsoft COA codes to Product IDs. Compile and run.
 
 ## Input format
 COA codes are read from a file named `coa.txt` and the resulting Product IDs will be written in `pids.txt`. Multiple COAs can be placed in the input file, one per line.
