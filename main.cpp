@@ -4,7 +4,7 @@
 using namespace std;
 
 ifstream fin("coa.txt");
-ofstream fout("activation-codes.txt");
+ofstream fout("pids.txt");
 int nrr = 0;
 char coa[1000][1000];
 
@@ -68,7 +68,6 @@ void write(int i)
 	if (i < nrr)
 	{
 		fout << coa[i] << endl;
-		cout<<coa[i]<<endl;
 		write(i + 1);
 	}
 }
